@@ -17,15 +17,20 @@
 	</properties>
 	<dependencies>
 		<dependency>
-  <groupId>org.eclipse.osgi</groupId>
-  <artifactId>org.eclipse.osgi</artifactId>
-  <version>3.7.1</version>
-</dependency>
-<dependency>
-  <groupId>org.eclipse.osgi</groupId>
-  <artifactId>org.eclipse.osgi</artifactId>
-  <version>3.7.1</version>
-  <classifier>sources</classifier>
-</dependency>
+			<groupId>org.eclipse.osgi</groupId>
+			<artifactId>org.eclipse.osgi</artifactId>
+			<version>3.7.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.osgi</groupId>
+			<artifactId>org.eclipse.osgi</artifactId>
+			<version>3.7.1</version>
+			<classifier>sources</classifier>
+		</dependency>
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.2.0</version>
+		</dependency>
 	</dependencies>
 </project>
